@@ -1,1 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+/*@import "~font-awesome/css/font-awesome.css";*/
+@import "~bootstrap/dist/css/bootstrap.css";
+
+@import "https://fonts.googleapis.com/css?family=Material+Icons";
+@import "https://fonts.googleapis.com/css?family=Roboto:400,300";
+@import url(http://fonts.googleapis.com/css?family=Ruda:400,700,900);
+
+html,body{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+.bg-theme {
+    background-color: #710ec8 !important;
+}
+
+a.bg-primary:hover, a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
+    background-color: #7ea0c8 !important;
+}
+
+.btn-theme {
+    color: #fff;
+    background-color: #710ec8;
+    border-color: #710ec8;
+}
+
+.btn-theme:hover {
+    color: #fff;
+    background-color: #710ec8;
+    border-color: #710ec8;
+}
+
+.btn-theme:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.btn-theme.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.lnk .hover{
+    letter-spacing: 1px;
+}
